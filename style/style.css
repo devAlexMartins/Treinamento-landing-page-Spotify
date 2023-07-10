@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    background: rgb(37, 37, 37) url(https://i0.wp.com/wallpaperaccess.com/full/667771.jpg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 667px;
+    font-family: sans-serif;
+    max-width: 100%;
+
+}
+
+.spotify img{
+   width: 9rem;
+}
+
+header{
+    
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav ul{
+    display: flex;
+    gap: 2.3rem;
+    list-style: none;
+}
+
+nav a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    color: rgb(0, 236, 0);
+    font-size: 16.6px;
+}
+
+.log-in{
+    color: rgb(0, 236, 0);
+    border-left: 2px solid white;
+    padding: 0 20px 0 20px;
+}
+
+main{
+   
+    max-width: 100%;
+    display: flex;
+    
+    
+}
+
+section{
+    
+   
+    color: white;
+    padding: 8rem;
+    margin-left: 4rem;
+}
+
+section h1{
+    
+    font-size: 4rem;
+    line-height: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+section p{
+    font-weight: bold;
+    color: rgb(170, 170, 170);
+    margin-bottom: 2rem;
+}
+
+.btn1{
+    cursor: pointer;
+    border-radius: 100px;
+    padding: 1rem;
+    font-weight: bold;
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 236, 0);
+    transition: 0.5s;
+}
+
+.btn1:hover{
+    font-weight: bold;
+    padding: 18px;
+    background-color: rgb(0, 199, 0);
+    
+    
+}
+
+picture img{
+    max-width: 100%;
+    display: block;
+    width: 400px;
+    margin: 2rem 4rem 0px 7rem;
+    
+}
+
+footer{
+    
+    color: white;
+    background-color: rgb(18, 18, 18) ;
+    padding: 1rem;
+    height: 200px;
+    
+   
+    
+}
+
+.container{
+    
+    margin-left: 27rem;
+}
+
+.container h2{
+    
+    font-family: sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.container p{
+    color: rgb(85, 85, 85);
+    font-weight: bold;
+    width: 28rem;
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+
+.btn2{
+    cursor: pointer;
+    background-color: rgb(247, 247, 247);
+    margin-left: 9rem;
+    border: none;
+    border-radius: 50px;
+    padding: 1rem;
+    width: 10rem;
+    transition: 1s;
+    
+}
+
+.btn2:hover{
+    
+    font-size: 0.9rem;
+}
+
+
